@@ -1,0 +1,4 @@
+C:\Users\Romano\Desktop\New folder\MEGA_CRM_start\bin\ZTG.Customer.Model2.dll
+C:\Users\Romano\Desktop\New folder\MEGA_CRM_start\bin\ZTG.Customer.Model2.pdb
+C:\Users\Romano\Desktop\New folder\MEGA_CRM_start\Common\ZTG.Customer.Model\obj\Debug\ZTG.Customer.Model2.dll
+C:\Users\Romano\Desktop\New folder\MEGA_CRM_start\Common\ZTG.Customer.Model\obj\Debug\ZTG.Customer.Model2.pdb

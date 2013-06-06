@@ -1,0 +1,122 @@
+﻿<phone:PhoneApplicationPage xmlns:Controls="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps" 
+    x:Class="ZTG.Customer.Client.WP8.Page1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="{Binding Path=LocalizedResources.Customer, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ScrollViewer>
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="300"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Grid.Row="0" Text="{Binding Path=LocalizedResources.Id, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Id, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="1" Text="{Binding Path=LocalizedResources.Title, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Title, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="2" Text="{Binding Path=LocalizedResources.FirstName, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding FirstName, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="3" Text="{Binding Path=LocalizedResources.MiddleName, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="3" Text="{Binding MiddleName, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="4" Text="{Binding Path=LocalizedResources.LastName, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="4" Text="{Binding LastName, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="5" Text="{Binding Path=LocalizedResources.Nickname, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="5" Text="{Binding Nickname, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="6" Text="{Binding Path=LocalizedResources.Birthday, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="6" Text="{Binding Birthday, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="7" Text="{Binding Path=LocalizedResources.Profession, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="7" Text="{Binding Profession, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="8" Text="{Binding Path=LocalizedResources.Company, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="8" Text="{Binding Company, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="9" Text="{Binding Path=LocalizedResources.Department, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="9" Text="{Binding Department, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="10" Text="{Binding Path=LocalizedResources.Office, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="10" Text="{Binding Office, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="11" Text="{Binding Path=LocalizedResources.ManagersName, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="11" Text="{Binding ManagersName, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="12" Text="{Binding Path=LocalizedResources.AssistantName, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="12" Text="{Binding AssistantName, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="13" Text="{Binding Path=LocalizedResources.WebPage, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="13" Text="{Binding WebPage, Mode=OneWay}" IsReadOnly="True" Tap="WebPage_Tap"/>
+                    <TextBlock Grid.Column="0" Grid.Row="14" Text="{Binding Path=LocalizedResources.PhoneNumber, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="14" Text="{Binding PhoneNumber, Mode=OneWay}" IsReadOnly="True" Tap="Phone_Tap"/>
+                    <TextBlock Grid.Column="0" Grid.Row="15" Text="{Binding Path=LocalizedResources.FaxNumber, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="15" Text="{Binding FaxNumber, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="16" Text="{Binding Path=LocalizedResources.MobileNumber, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="16" Text="{Binding MobileNumber, Mode=OneWay}" IsReadOnly="True" Tap="Mobile_Tap"/>
+                    <TextBlock Grid.Column="0" Grid.Row="17" Text="{Binding Path=LocalizedResources.Email, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="17" Text="{Binding Email, Mode=OneWay}" IsReadOnly="True" Tap="Mail_Tap"/>
+                    <TextBlock Grid.Column="0" Grid.Row="18" Text="{Binding Path=LocalizedResources.Street, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="18" Text="{Binding Street, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="19" Text="{Binding Path=LocalizedResources.City, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="19" Text="{Binding City, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="20" Text="{Binding Path=LocalizedResources.State, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="20" Text="{Binding State, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="21" Text="{Binding Path=LocalizedResources.PostalCode, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="21" Text="{Binding PostalCode, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="22" Text="{Binding Path=LocalizedResources.Country, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="22" Text="{Binding Country, Mode=OneWay}" IsReadOnly="True"/>
+                    <Controls:Map Name="map" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="23"/>
+                    <TextBlock Grid.Column="0" Grid.Row="24" Text="{Binding Path=LocalizedResources.Sales, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="24" Text="{Binding Sales, Mode=OneWay}" IsReadOnly="True"/>
+                    <TextBlock Grid.Column="0" Grid.Row="25" Text="{Binding Path=LocalizedResources.Margin, Source={StaticResource LocalizedStrings}}"  Style="{StaticResource PhoneTextLargeStyle}"/>
+                    <TextBox Grid.Column="1" Grid.Row="25" Text="{Binding Margin, Mode=OneWay}" IsReadOnly="True"/>
+                    <Image  Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="26" Source="{Binding BitmapImage}" Width="150" Stretch="UniformToFill"  />
+                </Grid>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</phone:PhoneApplicationPage>

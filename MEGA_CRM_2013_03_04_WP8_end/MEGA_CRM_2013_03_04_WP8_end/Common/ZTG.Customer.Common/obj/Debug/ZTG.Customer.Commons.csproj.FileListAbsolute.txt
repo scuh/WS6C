@@ -1,0 +1,14 @@
+C:\Users\Romano\Desktop\New folder\MEGA_CRM_start\bin\ZTG.Customer.Commons.dll
+C:\Users\Romano\Desktop\New folder\MEGA_CRM_start\bin\ZTG.Customer.Commons.pdb
+C:\Users\Romano\Desktop\New folder\MEGA_CRM_start\Common\ZTG.Customer.Common\obj\Debug\ZTG.Customer.Commons.dll
+C:\Users\Romano\Desktop\New folder\MEGA_CRM_start\Common\ZTG.Customer.Common\obj\Debug\ZTG.Customer.Commons.pdb
+C:\Users\Romano\Desktop\MEGA_CRM_2013_03_04_start\bin\ZTG.Customer.Commons.dll
+C:\Users\Romano\Desktop\MEGA_CRM_2013_03_04_start\bin\ZTG.Customer.Commons.pdb
+C:\Users\Romano\Desktop\MEGA_CRM_2013_03_04_start\Common\ZTG.Customer.Common\obj\Debug\ZTG.Customer.Commons.csprojResolveAssemblyReference.cache
+C:\Users\Romano\Desktop\MEGA_CRM_2013_03_04_start\Common\ZTG.Customer.Common\obj\Debug\ZTG.Customer.Commons.dll
+C:\Users\Romano\Desktop\MEGA_CRM_2013_03_04_start\Common\ZTG.Customer.Common\obj\Debug\ZTG.Customer.Commons.pdb
+C:\Users\Romano\Desktop\WP8\MEGA_CRM_2013_03_04_WP8_end\bin\ZTG.Customer.Commons.dll
+C:\Users\Romano\Desktop\WP8\MEGA_CRM_2013_03_04_WP8_end\bin\ZTG.Customer.Commons.pdb
+C:\Users\Romano\Desktop\WP8\MEGA_CRM_2013_03_04_WP8_end\Common\ZTG.Customer.Common\obj\Debug\ZTG.Customer.Commons.csprojResolveAssemblyReference.cache
+C:\Users\Romano\Desktop\WP8\MEGA_CRM_2013_03_04_WP8_end\Common\ZTG.Customer.Common\obj\Debug\ZTG.Customer.Commons.dll
+C:\Users\Romano\Desktop\WP8\MEGA_CRM_2013_03_04_WP8_end\Common\ZTG.Customer.Common\obj\Debug\ZTG.Customer.Commons.pdb

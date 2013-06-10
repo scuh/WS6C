@@ -155,3 +155,25 @@ C:\Users\samuel\Desktop\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\
 C:\Users\samuel\Desktop\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\ZTG.Customer.Client.WP8.pdb
 C:\Users\samuel\Desktop\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\XapCacheFile.xml
 C:\Users\samuel\Desktop\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\Page1.g.cs
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\bin\Assets\ApplicationIcon.png
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\bin\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\bin\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\bin\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\bin\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\bin\Assets\Tiles\IconicTileSmall.png
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\bin\ZTG.Customer.Client.WP8.dll
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\bin\ZTG.Customer.Client.WP8.pdb
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\bin\AppManifest.xaml
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\bin\Properties\WMAppManifest.xml
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\bin\ZTG.Customer.Client.WP8_Debug_AnyCPU.xap
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\ZTG.Customer.Client.WP8.csprojResolveAssemblyReference.cache
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\App.g.cs
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\MainPage.g.cs
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\CustomerDetailPage.g.cs
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\Page1.g.cs
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\ZTG.Customer.Client.WP8.g.resources
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\ZTG.Customer.Client.WP8.Resources.AppResources.resources
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\ZTG.Customer.Client.WP8.csproj.GenerateResource.Cache
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\ZTG.Customer.Client.WP8.dll
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\ZTG.Customer.Client.WP8.pdb
+C:\Users\Reto Lehnherr\Documents\GitHub\WS6C\MEGA_CRM_2013_03_04_WP8_end\MEGA_CRM_2013_03_04_WP8_end\WindowsPhone8\ZTG.Customer.Client.WP8\obj\Debug\XapCacheFile.xml

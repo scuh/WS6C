@@ -16,14 +16,14 @@
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="{Binding Path=LocalizedResources.Customer, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        <StackPanel  Background="Purple" Grid.Row="0" Margin="0,0,0,28">
+            <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" Margin="12 12 12 0" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="{Binding Name, Mode=OneWay}" Margin="12 0 12 12" Style="{StaticResource PhoneTextTitle2Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
